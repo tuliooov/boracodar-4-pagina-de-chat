@@ -1,38 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Challenge 04 - Buttons and Cursors - <a href="https://boracodar.dev/#">#BoraCodar</a>
+Develop a desktop chat, which can be responsive. You can go further and add animations, or even implement a functional chat.
 
-First, run the development server:
+<img width="929" alt="image" src="https://user-images.githubusercontent.com/28486303/215292762-edc32edf-105b-47f2-ad7d-04c5b205b206.png">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<img width="888" alt="image" src="https://user-images.githubusercontent.com/28486303/215292838-f5524200-59e0-4fed-b61f-bf0117041434.png">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ In this project was used
+- NextJS
+- Typescript
+- Github Pages
+- CSS Modules
+- ESlint
+- React Icons
+- Date Fns
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Start project
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- npm install
+- npm run dev
+- locale: http://localhost:3000/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Figma
+https://www.figma.com/file/0SefCmILnXmeRUd3VJsNAG/%23boraCodar---Desafio-4-(Community)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployed
+- https://tuliooov.github.io/one-chat-challenge-4-bora-codar/
