@@ -25,4 +25,4 @@ Develop a desktop chat, which can be responsive. You can go further and add anim
 https://www.figma.com/file/0SefCmILnXmeRUd3VJsNAG/%23boraCodar---Desafio-4-(Community)
 
 ## Deployed
-- https://tuliooov.github.io/botoes-e-cursores-bora-codar/
+- https://tuliooov.github.io/one-chat-challenge-4-bora-codar/
