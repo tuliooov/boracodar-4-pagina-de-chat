@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack-0e55d5959bc73bc9.js",
+      "static/chunks/17-033edc3ebef9d194.js",
+      "static/chunks/main-app-b3cbb28634f0936b.js",
+      "static/chunks/d7eeaac4-c186f8b12eaf10d0.js",
+      "static/chunks/95b64a6e-028d995ab3b09871.js",
+      "static/chunks/778-bffcf043b11be4d9.js",
+      "static/css/2f2d4aff0a7f0eeb.css",
+      "static/chunks/app/page-82f014d33d45edc6.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-0e55d5959bc73bc9.js",
+      "static/chunks/17-033edc3ebef9d194.js",
+      "static/chunks/main-app-b3cbb28634f0936b.js",
+      "static/chunks/app/layout-d9f315d9d32b2603.js"
+    ],
+    "/head": [
+      "static/chunks/webpack-0e55d5959bc73bc9.js",
+      "static/chunks/17-033edc3ebef9d194.js",
+      "static/chunks/main-app-b3cbb28634f0936b.js",
+      "static/chunks/app/head-fbf0b755a1944d43.js"
+    ],
+    "/one-chat-challenge-4-bora-codar/page": [
+      "static/chunks/webpack-0e55d5959bc73bc9.js",
+      "static/chunks/17-033edc3ebef9d194.js",
+      "static/chunks/main-app-b3cbb28634f0936b.js",
+      "static/chunks/d7eeaac4-c186f8b12eaf10d0.js",
+      "static/chunks/95b64a6e-028d995ab3b09871.js",
+      "static/chunks/778-bffcf043b11be4d9.js",
+      "static/css/2f2d4aff0a7f0eeb.css",
+      "static/chunks/app/one-chat-challenge-4-bora-codar/page-8b7cabaabfd24e81.js"
+    ]
+  }
+}
