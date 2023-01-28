@@ -81,73 +81,69 @@ export default function Chat({ handleOpenChat }: ChatProps) {
   }, [thePersonSendMessage, thePersonController, writing])
 
   return (
-    <main className={styles.main}>
-      <div className={styles.chat}>
-        <div className={styles.profile}>
-          <div className={styles.profileLeft}>
-            <Image
-              src="./profile.svg"
-              alt="Profile Photo"
-              className={styles.profileImage}
-              width={48}
-              height={48}
-              priority
-            />
-            <div className={styles.profileInfo}>
-              <h2>Cecilia Sassaki</h2>
-              <p
-                style={{
-                  color: `${online ? 'var(--success500)' : 'white'}`,
-                }}
-              >
-                <AiTwotoneCheckCircle size="0.5rem" />{' '}
-                {writing ? 'Escrevendo...' : online ? 'Online' : 'Offline'}
+    <div className={styles.chat}>
+      <div className={styles.profile}>
+        <div className={styles.profileLeft}>
+          <Image
+            src="./profile.svg"
+            alt="Profile Photo"
+            className={styles.profileImage}
+            width={48}
+            height={48}
+            priority
+          />
+          <div className={styles.profileInfo}>
+            <h2>Cecilia Sassaki</h2>
+            <p
+              style={{
+                color: `${online ? 'var(--success500)' : 'white'}`,
+              }}
+            >
+              <AiTwotoneCheckCircle size="0.5rem" />{' '}
+              {writing ? 'Escrevendo...' : online ? 'Online' : 'Offline'}
+            </p>
+          </div>
+        </div>
+        <button
+          className={styles.buttonCircle}
+          style={{ width: 30, height: 30 }}
+          onClick={handleOpenChat(false)}
+        >
+          <AiOutlineClose size="1.5rem" />
+        </button>
+      </div>
+
+      <div className={styles.center} id="chatConversation">
+        {chat.messages.map((message) => (
+          <div className={styles.messageContainer} key={message.id}>
+            <div
+              className={`${message.type === 'me' ? styles.me : styles.notMe}`}
+            >
+              <p>
+                {message.type === 'me' ? 'Você' : chat.name} -{' '}
+                {format(message.date, 'HH:mm')}
               </p>
+              <div>{message.message}</div>
             </div>
           </div>
-          <button
-            className={styles.buttonCircle}
-            style={{ width: 30, height: 30 }}
-            onClick={handleOpenChat(false)}
-          >
-            <AiOutlineClose size="1.5rem" />
-          </button>
-        </div>
-
-        <div className={styles.center} id="chatConversation">
-          {chat.messages.map((message) => (
-            <div className={styles.messageContainer} key={message.id}>
-              <div
-                className={`${
-                  message.type === 'me' ? styles.me : styles.notMe
-                }`}
-              >
-                <p>
-                  {message.type === 'me' ? 'Você' : chat.name} -{' '}
-                  {format(message.date, 'HH:mm')}
-                </p>
-                <div>{message.message}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <form className={styles.inputContainer} onSubmit={handleSendMessage}>
-          <input
-            type="text"
-            placeholder="Digite sua mensagem"
-            onChange={handleChangeInput}
-            value={text}
-          />
-          <button
-            type="submit"
-            className={styles.buttonCircle}
-            style={{ width: 30, height: 30 }}
-          >
-            <IoMdSend size="1.5rem" />
-          </button>
-        </form>
+        ))}
       </div>
-    </main>
+
+      <form className={styles.inputContainer} onSubmit={handleSendMessage}>
+        <input
+          type="text"
+          placeholder="Digite sua mensagem"
+          onChange={handleChangeInput}
+          value={text}
+        />
+        <button
+          type="submit"
+          className={styles.buttonCircle}
+          style={{ width: 30, height: 30 }}
+        >
+          <IoMdSend size="1.5rem" />
+        </button>
+      </form>
+    </div>
   )
 }
