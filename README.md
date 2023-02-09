@@ -1,5 +1,5 @@
 
-## Challenge 04 - Buttons and Cursors - <a href="https://boracodar.dev/#">#BoraCodar</a>
+## Challenge 04 - Chat - <a href="https://boracodar.dev/#">#BoraCodar</a>
 Develop a desktop chat, which can be responsive. You can go further and add animations, or even implement a functional chat.
 
 <img width="929" alt="image" src="https://user-images.githubusercontent.com/28486303/215292762-edc32edf-105b-47f2-ad7d-04c5b205b206.png">

@@ -6,7 +6,7 @@ import { useState } from 'react'
 import Chat from '@/components/Chat'
 
 export default function Home() {
-  const [openChat, setOpenChat] = useState(true)
+  const [openChat, setOpenChat] = useState(false)
 
   const handleOpenChat = (value: boolean) => () => {
     setOpenChat(value)
